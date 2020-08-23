@@ -31,12 +31,12 @@ class WriteTask extends Component {
           Task: 
           <input
             type="text"
-            placeholder="Task"
+            placeholder="Add new task here"
             value={this.state.taskToAdd}
             onChange={this.handleChange}
           />
         </label>
-        <button type="submit">Add task</button>
+        <button type="submit" className="addTaskButton">Add task</button>
       </form>
     );
   };

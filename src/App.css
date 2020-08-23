@@ -1,8 +1,11 @@
 * {
   margin: auto;
   padding: .5rem;
-  background: rgb(201, 204, 192);
   text-align: center;
+}
+
+body {
+  background: rgb(235, 251, 246);
 }
 
 .completed {
@@ -15,8 +18,48 @@
   color: rgb(8, 8, 8);
 }
 
+label {
+  font-size: .7rem;
+}
+
 input {
   margin: 0 0 0 .5rem;
+  background: rgb(252, 221, 255);
+  border-radius: .3rem;
+  border: none;
+}
+
+::placeholder {
+  color: rgb(242, 150, 250);
+  font-size: .7rem;
+}
+
+/* button {
+  background: rgb(242, 150, 250);
+  border-radius: .3rem;
+  border: none;
+  font-size: 0.8rem;
+} */
+
+/* button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+} */
+
+.addTaskButton {
+  font-size: 0.8rem;
+  background: rgb(242, 150, 250);
+  border-radius: .3rem;
+  border: none;
 }
 
 li {
