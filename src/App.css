@@ -1,0 +1,27 @@
+* {
+  margin: auto;
+  padding: .5rem;
+  background: rgb(201, 204, 192);
+  text-align: center;
+}
+
+.completed {
+  font-weight: 200;
+  color: rgb(8, 8, 8, 0.5);
+}
+
+.notCompleted {
+  font-weight: 600;
+  color: rgb(8, 8, 8);
+}
+
+input {
+  margin: 0 0 0 .5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
